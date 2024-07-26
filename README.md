@@ -1,6 +1,6 @@
 ## Overview
 
-These Vultr backup scripts create regular server snapshots which you can use to restore your server and can be used in different scenarios. Each folder is self-explanatory. More details are available in comments at the beginning of each script.
+These Vultr backup scripts are based on Vultra API v2 and written in Bash and can be used in different scenarios. Create regular server snapshots which you can use to restore your server; define a limit to the amount of snapshots to keep for each server instance and which server instances to backup. Each folder is self-explanatory. More details are available in comments section at the beginning of each script.
 
 These improved versions of Vultr backup script incorporate certain enhancements, including better error handling, use of environment variables for sensitive information, JSON parsing with jq, input validation, and a dry-run option. By using this method, you keep your sensitive information separate from the script, making it easier to manage and more secure.
 
